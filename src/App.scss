@@ -1,0 +1,32 @@
+$darkAccent: #254672;
+$lightAccent: #9dc7ff;
+$backgroundBase: #4a97fd;
+
+$shadow: 1px 1px 10px 2px darken($backgroundBase, 20%);
+$default-border: 1px solid darken($backgroundBase, 35%);
+body {
+    background-color: lighten($backgroundBase, 30%);
+  }
+textarea {
+  width: 100%;
+  min-height: 500px;
+  margin-bottom: -5px;
+  resize: vertical;
+  outline: none;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-size: 0.875rem;
+  background-color: lighten($backgroundBase, 30%);
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+h3 :hover {
+  color: lighten($backgroundBase, 30%);
+}
